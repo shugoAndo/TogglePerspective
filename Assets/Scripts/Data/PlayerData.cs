@@ -14,5 +14,8 @@ namespace TogglePerspective
 
         [SerializeField, Tooltip("ジャンプ力の指定")]
         public int jumpPower;
+
+        [SerializeField, Tooltip("回転力の指定")]
+        public int rotateSpeed;
     }
 }

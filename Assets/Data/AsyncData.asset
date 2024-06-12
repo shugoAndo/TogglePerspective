@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893b4b6b32c316546ad7422df1092f70, type: 3}
-  m_Name: PlayerData
+  m_Script: {fileID: 11500000, guid: d22e8b0ed03e6b94abe9fc4911f48f3b, type: 3}
+  m_Name: AsyncData
   m_EditorClassIdentifier: 
-  walkSpeed: 3
-  runSpeed: 6
-  jumpPower: 7
-  rotateSpeed: 0
