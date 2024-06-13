@@ -157,13 +157,13 @@ namespace TogglePerspective
 
                 // プレイヤーの回転。
                 var rotation = Quaternion.LookRotation(moveInput);
+                Debug.Log(rotation);
                 transform.rotation = Quaternion.Slerp(transform.rotation, rotation, playerData.rotateSpeed * Time.deltaTime);
             }
             else
             {
                 SetStopState();
             }
-
             // プレイヤーの移動。
             var velocity = moveInput * playerData.walkSpeed;
             velocity.y = rigidbody.velocity.y;
